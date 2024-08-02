@@ -1,0 +1,2 @@
+[console_scripts]
+cover-agent = cover_agent.main:main

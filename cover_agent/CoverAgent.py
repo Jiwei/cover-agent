@@ -106,3 +106,4 @@ class CoverAgent:
 
         if "WANDB_API_KEY" in os.environ:
             wandb.finish()
+        return test_results_list, self.test_gen.current_coverage

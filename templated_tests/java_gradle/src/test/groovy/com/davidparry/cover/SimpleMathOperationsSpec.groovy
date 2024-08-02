@@ -25,4 +25,5 @@ class SimpleMathOperationsSpec extends Specification {
         then:
         assert result == 5
     }
+
 }
